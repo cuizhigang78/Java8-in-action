@@ -145,6 +145,11 @@ public class ShopTest {
          */
     }
 
+    @Test
+    public void test5() {
+
+    }
+
 
     private void doSomethingElse() {
         try {
