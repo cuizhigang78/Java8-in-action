@@ -16,10 +16,6 @@ import static java.util.stream.Collectors.toList;
  */
 public class FilterTest {
 
-    public static void main(String[] args) {
-
-    }
-
     public List<Dish> filterByPredicate(List<Dish> menu) {
         List<Dish> vegetarianMenu =
                 menu.stream().filter(Dish::isVegetarian).collect(toList());
@@ -49,5 +45,4 @@ public class FilterTest {
                 .collect(toList());
         return dishes;
     }
-
 }
