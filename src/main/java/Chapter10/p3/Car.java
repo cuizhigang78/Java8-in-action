@@ -1,5 +1,10 @@
 package Chapter10.p3;
 
+import lombok.Data;
+import lombok.ToString;
+
+import java.util.Optional;
+
 /**
  * @ClassName Car
  * @Author cuizhigang
@@ -7,5 +12,8 @@ package Chapter10.p3;
  * @Description Car
  * @Version 1.0
  */
+@Data
+@ToString
 public class Car {
+    private Optional<Insurance> insurance;
 }

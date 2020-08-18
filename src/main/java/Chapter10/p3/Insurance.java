@@ -1,5 +1,8 @@
 package Chapter10.p3;
 
+import lombok.Data;
+import lombok.ToString;
+
 /**
  * @ClassName Insurance
  * @Author cuizhigang
@@ -7,5 +10,8 @@ package Chapter10.p3;
  * @Description Insurance
  * @Version 1.0
  */
+@Data
+@ToString
 public class Insurance {
+    private String name;
 }

@@ -1,12 +1,10 @@
-package chapter5.p3;
+package Chapter5.p3;
 
-import chapter5.Dish;
+import Chapter5.Dish;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-import java.util.function.Function;
-import java.util.function.Predicate;
 
 /**
  * @ClassName MatchAndFindTest

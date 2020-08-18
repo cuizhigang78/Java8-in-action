@@ -1,5 +1,7 @@
 package Chapter10.p1;
 
+import lombok.Data;
+
 /**
  * @ClassName Car
  * @Author cuizhigang
@@ -7,5 +9,7 @@ package Chapter10.p1;
  * @Description Car
  * @Version 1.0
  */
+@Data
 public class Car {
+    private Insurance insurance;
 }

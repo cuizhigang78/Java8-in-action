@@ -1,11 +1,9 @@
-package chapter5.p2;
+package Chapter5.p2;
 
-import chapter5.Dish;
+import Chapter5.Dish;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Function;
-import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 

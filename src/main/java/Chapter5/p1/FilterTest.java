@@ -1,6 +1,6 @@
-package chapter5.p1;
+package Chapter5.p1;
 
-import chapter5.Dish;
+import Chapter5.Dish;
 
 import java.util.Arrays;
 import java.util.List;

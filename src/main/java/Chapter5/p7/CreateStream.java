@@ -1,11 +1,10 @@
-package chapter5.p7;
+package Chapter5.p7;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
-import java.util.function.Supplier;
 import java.util.stream.Stream;
 
 /**

@@ -19,9 +19,11 @@ public class Dish {
     private final Type type;
 
     public enum Type {
-        FISH,
-        MEAT,
-        OTHER
+        FISH, MEAT, OTHER
+    }
+
+    public enum CaloricLevel {
+        DIET, NORMAL, FAT
     }
 
     public boolean isVegetarian() {

@@ -1,4 +1,4 @@
-package chapter5.p5;
+package Chapter5.p5;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
